@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	
+
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,14 +12,58 @@
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 	</head>
+
 	<body>
+		<!-- TRIVIA LOGO -->
+		<div style="text-align: center;" class="img"><img src="assets/images/trivia2.gif"></div>
 
-		<h1 class="text-center">Trvia Game</h1>
+		<div class="row" id="press-play">
+			<button type="button" id="play" class="btn btn-default">Play</button>	
+		</div>
 
+		<div id="timer">
+			Seconds Left: <span id="timer1"></span>
+		</div>	
+	
+		<br>
 
+		<div id="questions"><strong>Test: This is where the question will go!</strong>
+		</div>	
+		<br>
+		<div id="correctAnswerShown" style="display:none;">MY ANSWERS HERE</div>
+		
+		<div id="answerImage"></div>
 
+		<div id="answers">Pick an answer below
+			<br>
+			<br>
+			<button type="button" class="btn btn-primary" id="A">Answer #1</button>
+			<br>	
+			<button type="button" class="btn btn-primary" id="B">Answer #2</button>	
+			<br>
+			<button type="button" class="btn btn-primary" id="C">Answer #3</button>	
+			<br>
+			<button type="button" class="btn btn-primary" id="D">Answer #4</button>
+			<br>	
+		</div>
+		<br>
+
+		<div class="row" id="results-info">
+			<div id="results"><u> Here are your results </u></div>
+			<br>
+	
+			<div id="final-results">
+			<div id="qc">Questions Correct: <span id="questions-correct"></span></div>
+			<div id="qi">Questions Incorrect: <span id="questions-incorrect"></span></div>
+			<div id="qu">Questions Unanswered: <span id="questions-unanswered"></span></div>
+			<br>
+			<button type="button" class="btn btn-default" onclick="startGame()" id="play-again">Play Again</button>
+		</div>
+	
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<script src="assets/javascript/app.js"></script>
+		<!-- <script type="text/javascript">window.onload = CreateTimer("timer", 25);</script>  -->
 
 	</body>
 </html>

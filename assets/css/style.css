@@ -1,0 +1,99 @@
+body {
+	background-color: lightgrey;
+}
+
+h1 {
+	font-family: avenir;
+}
+#timer {
+	text-align: center;
+	padding-top: 55px;
+	font-family: avenir;
+	color: blue;
+	font-size: 35px;
+	font-weight: bold;
+}
+#questions {
+	text-align: center;
+	font-family: avenir;
+	font-size: 21px;
+	color: darkgreen;
+
+}
+#answers {
+	text-align: center;
+	font-family: avenir;
+	font-size: 17px;
+}
+.btn-primary {
+	width: 55%;
+	color: black;
+}
+img {
+	width: 20%;
+	padding-top: 35px;
+}
+#results {
+	font-size: 20px;
+	font-weight: bold;	
+	text-align: center;
+	color: blue;
+	font-family: avenir;
+}
+#results-info {
+	text-align: center;
+	font-size: 17px;
+	font-family: avenir;
+}
+#qi {
+	color: red;
+	font-size: 20px;
+	font-family: avenir;
+}
+#qc {
+	color: green;
+	font-size: 20px;
+	font-family: avenir;
+}
+#qu {
+	color: orange;
+	font-size: 20px;
+	font-family: avenir;
+}
+ .btn-primary:hover {
+    background: yellow;
+    color: black;
+}
+#play-again {
+	background-color: red;
+}
+#timer, #questions, #answers, #results-info {
+	display: none;
+}
+#play {
+	text-align: center;
+	background-color: #337AB7;	
+	color: white;
+	height: 100px;
+	width: 100px;
+	margin-top: 10%;
+	border-radius: 100%;
+	border: 11px solid white;
+	font-family: avenir;
+}
+#play:hover {
+	background: red;
+}
+#press-play {
+	text-align: center;
+}
+#correctAnswerShown{
+	text-align: center;
+	font-family: avenir;
+	font-size: 25px;
+}
+#answerImage{
+	text-align: center;
+}
+
+
