@@ -4,7 +4,7 @@ A Web based Javascript/ HTML5 Trivia application that uses the Random Question A
 
 ## Live Demo
 
-[See Trivia Game Live](https://ramirolpz55.github.io/TriviaGame-/)
+[See Trivia Game Live](https://ramirolpz55.github.io/TriviaGame/)
 
 ![Pokemon RPG](assets/images/TriviaGame.gif)
 
